@@ -36,6 +36,7 @@ const videoSecDark= document.querySelector(".myVideo");
 const navSecDark= document.querySelector("nav");
 const textDark= document.querySelector(".mode-text");
 const loader =  document.querySelector(".loader")
+const input =  document.querySelector(".input")
 
 
 
@@ -110,6 +111,7 @@ Switch.addEventListener('click',()=>{
  header04.classList.toggle('back-dark')
  header05.classList.toggle('back-dark')
  navSecDark.classList.toggle('nav-dark')
+ input.style.color ="white"
   if(textDark.innerHTML === "Turn On Dark Mode"){
     textDark.innerHTML = "Turn Off Dark Mode"
   }else{
