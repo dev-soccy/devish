@@ -25,6 +25,14 @@ a{
 button{
   transition: all 0.5s;
 }
+.brand-logo{
+  width: 100vw;
+}
+.logo-brand{
+width: 150px;
+height: 150px;
+
+}
 
 .header0 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(20, 20, 20, 0.815)), url('./images/mainbgk.jpg');
@@ -846,7 +854,7 @@ footer h4{
  position: fixed;
  z-index:2;
  transform: scale(0.5);
- top: 1.8%;
+ top: 10%;
 }
 
 .labell {
@@ -1364,6 +1372,9 @@ p{
 }
 } */
 
+
+
+
 @media (max-width:375px){
   .nvbr{
     display: none;
@@ -1462,15 +1473,19 @@ p{
     height: 50px;
   }
   .header1{
-    
-    height: 160vh;
     margin-bottom: 10rem;
+    height: 160vh;
+  
   }
   .profile-sec{
     display: block;
   }
   .profile-pic{
 transform: translate(40%);
+  }
+
+  .details{
+    width: 100vw;
   }
   .about-sec{
     height: 150vh;
@@ -1491,8 +1506,8 @@ transform: translate(40%);
   width: 100%;
 }
 .header2{
-margin-bottom: 10rem;
-  height: 100vh;
+
+  height: 110vh;
 }
 .services-section{
   height: 100vh;
@@ -1508,13 +1523,16 @@ margin-bottom: 10rem;
 .service-head p{
   font-size: 12px;
 }
+.header3{
+  height: 30vh;
+}
 
 .line2{
-  transform: translate(-40%);
+  transform: translate(-30%);
 }
 .lang-logo{
   display:flex;
-  margin-top: 5rem;
+ margin-top: 2rem;
 }
 .lang-logo img{
   width: 60px;
@@ -1533,8 +1551,8 @@ margin-bottom: 10rem;
   position: fixed;
   z-index:2;
   transform: scale(0.5);
-  top: -2%;
-  left:-5%;
+  top: 5%;
+  right: -2%;
  }
 .header4{
 
@@ -1583,8 +1601,9 @@ footer h4{
   padding: 0;
 }
  .touch-form{
-  width: 80vw !important;
-  margin-top: 6rem !important;
+  width: 90vw !important;
+  margin-top: 5rem !important;
+
  
  }
  .header0{
@@ -1611,7 +1630,7 @@ footer h4{
     overflow-x: hidden;
   }
   nav{
-    height: 4rem;
+    height: 3rem;
   }
  
  .header0{
@@ -1695,8 +1714,12 @@ footer h4{
   }
   .header1{
     
-    height: 150vh;
+    height: 180vh;
     margin-bottom: 10rem;
+  }
+
+  .about-text{
+    transform: translateY(-15%);
   }
   .profile-sec{
     display: block;
@@ -1705,7 +1728,7 @@ footer h4{
 transform: translate(55%);
   }
   .about-sec{
-    height: 140vh;
+    height: 150vh;
   transform: translateY(5%);
   
   }
@@ -1746,7 +1769,7 @@ margin-bottom: 10rem;
 }
 .lang-logo{
   display:flex;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .lang-logo img{
   width: 60px;
@@ -1757,7 +1780,7 @@ margin-bottom: 10rem;
   height: 30vh;
 }
 .resume{
-  height: 230vh;
+  height: 270vh;
 
 }
 
@@ -1765,41 +1788,48 @@ margin-bottom: 10rem;
   position: fixed;
   z-index:2;
   transform: scale(0.5);
-  top: -2%;
-  left:-5%;
+  top: 5%;
+  right:-5%;
  }
 .header4{
- height: 280vh;
+ height: 315vh;
   
 }
 .course-logo{
   transform: scale(0.);
 }
 .bach-deg{
-  height: 70;
+  height: 50vh;
 }
-.header5{
-  margin-bottom: 
+.web-deg{
+  height: 60vh;
 }
+
 .free-lancer{
   transform: scale(0.8);
  
 }
 .freelance-sec h1{
   padding: 1rem !important;
+  font-size: 36px;
+  line-height: 5rem;
 
 
 }
+.btnn{
+transform: translateY(-50%);
+}
 
 .header6{
-  margin-bottom: 31rem;
+
+  height: 200vh;
 }
 
 .contact {
   display: block;
   width: 100vw;
   margin: 0;
-  height: 125vh;
+  height: 150vh;
 }
 .forme{
  width: 50vw !important;
@@ -2381,8 +2411,47 @@ height: 300px;
 
 
 
+@media (min-width:1300px) and (max-width:1366px){
 
 
+.header1{
+ 
+  height: 120vh;
+}
+.about-sec{
+  height: 80vh !important;
+}
+
+.header4{
+  height: 200vh;
+}
+.resume{
+  height: 150vh !important;
+}
+.bach-deg{
+  height: 50vh;
+}
+.web-deg{
+  height: 60vh;
+}
+.lang-logo{
+  transform: scale(0.9) !important;
+}
+
+.header5{
+  height: 55vh;
+
+}
+.contact{
+  height: 100vh;
+  transform: translate(-3%);
+}
+.header6{
+  height: 130vh;
+}
+
+}
+  
 
 
 
